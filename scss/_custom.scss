@@ -1,0 +1,43 @@
+
+$blue:   #14274E;
+$purple:  #6F1D46;
+$blue:  #00A6CE;
+$footer: #C2E8F2;
+$accent: #DAF2FB;
+$green: #90B85B;
+$gradient: linear-gradient(159.24deg, #18A6DA 3.71%, #90B85B 86.26%);
+
+
+// scss-docs-start gray-color-variables
+
+$gray: #E2E6E9;
+$gray-10: #F6F6F6;
+$gray-50: #E2E6E9;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+// scss-docs-end gray-color-variables
+
+$primary:       $purple;
+$secondary:     $blue;
+
+// Optional captions
+//
+//
+
+// Fonts
+
+$font-family-sans-serif:      "Lexend Deca", sans-serif;
+$font-family-sans-serif:      "Lexend Deca", sans-serif;
+$font-family-monospace:       "Lexend Deca", sans-serif;
+
+// import bootstrap
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
