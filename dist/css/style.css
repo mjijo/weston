@@ -12244,4 +12244,48 @@ ul.contact a {
 }
 .hero .col-md-6 .play {
   background: #00A6CE;
+}
+
+@media (max-width: 767.98px) {
+  .intro {
+    padding: 0rem 0.8rem;
+  }
+}
+.intro h2, .intro .h2 {
+  font-family: "AntartidaRounded-Medium";
+  font-size: 36px;
+}
+@media (max-width: 767.98px) {
+  .intro h2, .intro .h2 {
+    font-size: 2rem;
+  }
+}
+.intro h3, .intro .h3 {
+  color: #fff;
+  font-size: calc(1.425rem + 2.1vw);
+  display: inline;
+  padding-top: 5px;
+  font-family: "avert-bold", sans-serif;
+  margin-bottom: 1.5rem !important;
+}
+.intro p {
+  font-size: 16px;
+  color: #fff;
+}
+.intro--teaser {
+  min-height: 100%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.intro--teaser .img-fluid {
+  max-height: 110px;
+}
+.intro--teaser h6, .intro--teaser .h6 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Fira Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
