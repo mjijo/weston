@@ -12144,4 +12144,104 @@ ul.contact {
 }
 ul.contact a {
   color: #000;
+}
+
+.hero {
+  width: 100%;
+  background: #000;
+  z-index: -1;
+}
+.hero .col-md-6 {
+  height: 100%;
+}
+.hero .col-md-6 .mobile {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  .hero .col-md-6 .mobile {
+    display: block;
+  }
+}
+.hero .carousel-item {
+  min-height: 675px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+@media (max-width: 991.98px) {
+  .hero .carousel-item {
+    height: 100%;
+    min-height: 100% !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .carousel-item {
+    height: 100%;
+    min-height: 100% !important;
+    background: none !important;
+    background-size: cover !important;
+  }
+}
+.hero .carousel-item h5, .hero .carousel-item .h5 {
+  font-weight: 400;
+  text-align: left;
+  font-family: "avert-bold";
+  color: #00A6CE;
+  background: url("../img/hero--stroke.png") no-repeat right;
+  padding-right: 5rem;
+}
+@media (max-width: 767.98px) {
+  .hero .carousel-item h5, .hero .carousel-item .h5 {
+    height: 100%;
+    background: none !important;
+    background-size: cover !important;
+  }
+}
+.hero .carousel-item p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.2rem;
+}
+.hero .carousel-control-prev span.control-border, .hero .carousel-control-next span.control-border {
+  width: 50px;
+  height: 50px;
+  padding-top: 0.5rem;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.hero .carousel-indicators .active {
+  opacity: 1;
+  background-color: #6F1D46;
+}
+.hero .col-md-6 {
+  text-align: left !important;
+  padding-top: 15%;
+}
+.hero .col-md-6 a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.2rem;
+}
+@media (max-width: 767.98px) {
+  .hero .col-md-6 {
+    top: 2%;
+    left: 13%;
+    right: 13%;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  .hero .col-md-6 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    padding-right: 5rem;
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+}
+.hero .col-md-6 .play {
+  background: #00A6CE;
 }/*# sourceMappingURL=style.css.map */
