@@ -1,0 +1,119 @@
+.footer {
+    padding: 1.5rem 0;
+    background: $footer;
+    color: $dark;
+//    .brand {
+//      img {
+//         max-width: 120px;
+//      }
+//    }
+
+   h3 {
+    margin-bottom: 1.5rem;
+   }
+    h4 {
+        margin: 0.8rem 0;
+        color:$white;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li a {
+            color: $gray-900;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 300;
+            font-family: "Roboto", sans-serif;
+
+            &:hover {
+                color:$black;
+            }
+        }
+        
+    }
+
+    p {
+        font-size: 14px;
+        color: $dark;
+        font-weight: 500;
+    }
+
+    h4 {
+        text-decoration: underline;
+        color: $dark;
+    }
+    p.social{
+
+        span {
+            background-color: #5c5d5f;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 0.5rem;
+            align-items: center;
+            padding:10px 12px;
+            overflow: hidden;
+
+            &:hover {
+
+                background-color: $primary;
+                color: $white;
+            }
+
+            
+
+        }
+    }
+
+    // img {
+    //     max-width:100px;
+    // }
+    form {
+
+        input, button {
+            border-radius: 0;
+            border:1px solid $secondary;
+        }
+        input {
+            background: $footer;
+            color: $gray;
+        }
+    }
+
+    .newsletter {
+        @include media-breakpoint-down(md) { 
+            text-align: center;
+ 
+         }
+    }
+
+    .copyright {
+        font-size:12px;
+    }
+
+    .social-media {
+        display: flex;
+        gap: 10px;
+        margin-top: 1rem;
+
+        a.social {
+            background: #5c5d5f;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: relative;
+            color: $white;
+            flex-shrink: 0;
+            
+
+            
+        }
+    }
+
+}
