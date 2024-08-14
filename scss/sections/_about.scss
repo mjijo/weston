@@ -1,0 +1,40 @@
+.about {
+    position: relative;
+    .text-box {
+        background-color: transparent;
+        border: 7px solid;
+        border-image: linear-gradient(90deg, rgba(111,29,69,1) 35%, rgba(170,146,0,1) 100%);
+        border-image-slice: 1;
+        padding: 20px;
+        font-size: 20px;
+        line-height: 1.4;
+        width: 100%;
+        position: relative;
+        z-index: 10;
+        margin-bottom: 1rem;
+        h3{
+            color: $primary;
+            font-family: 'avert-bold', sans-serif;
+        font-size: calc(1.425rem + 2.1vw);
+        }
+    }
+    
+
+    .text-box::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -20px;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid #aa9200;
+        z-index: -1;
+        @include media-breakpoint-down(md) { 
+           display: none !important;
+
+        }
+    }
+}
