@@ -1,10 +1,13 @@
 
-//IMPORT COMPONENTS
+//IMPORT FONTS
 @import'./components/fonts';
-@import'./components/typography';
 
 // IMPORT CUSTOM CSS
 @import'./custom';
+
+// @IMPORT COMPONENTS
+@import'./components/typography';
+@import'./components/bio';
 
 // IMPORT SECTIONS
 @import'./sections/index';

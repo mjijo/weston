@@ -1,0 +1,15 @@
+.bio {
+    &__avator {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border: 1px solid $gray;
+        border-radius: 30%;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+        }
+        
+    }
+}

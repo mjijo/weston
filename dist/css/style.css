@@ -11974,6 +11974,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.bio__avator {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid #E2E6E9;
+  border-radius: 30%;
+}
+.bio__avator img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
 header {
   /* Style the navbar */
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -12245,6 +12267,92 @@ ul.contact a {
 }
 .hero .col-md-6 .play {
   background: #00A6CE;
+}
+
+.hero-in {
+  position: relative;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767.98px) {
+  .hero-in {
+    margin-top: 0px;
+    background-image: none !important;
+  }
+}
+.hero-in .text-box {
+  background-color: transparent;
+  border: 7px solid;
+  -o-border-image: linear-gradient(90deg, rgb(111, 29, 69) 35%, rgb(170, 146, 0) 100%);
+     border-image: linear-gradient(90deg, rgb(111, 29, 69) 35%, rgb(170, 146, 0) 100%);
+  border-image-slice: 1;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.4;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  margin-bottom: -1.5rem;
+}
+.hero-in .text-box::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #aa9200;
+  z-index: -1;
+}
+@media (max-width: 767.98px) {
+  .hero-in .text-box::before {
+    display: none !important;
+  }
+}
+.hero-in h3, .hero-in .h3 {
+  color: #6F1D46;
+  font-family: "avert-bold", sans-serif;
+  font-size: calc(1.425rem + 2.1vw);
+}
+.hero-in p {
+  color: #fff;
+  font-size: 14px;
+}
+@media (max-width: 575.98px) {
+  .hero-in p {
+    font-size: 14px;
+  }
+}
+.hero-in img {
+  width: 90%;
+}
+@media (max-width: 575.98px) {
+  .hero-in img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.hero-in h2, .hero-in .h2 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 575.98px) {
+  .hero-in h2, .hero-in .h2 {
+    font-size: 28px;
+  }
+}
+.hero-in .overlay {
+  position: absolute;
+  top: 40%;
+}
+@media (max-width: 767.98px) {
+  .hero-in .overlay {
+    top: 10%;
+  }
 }
 
 @media (max-width: 767.98px) {
