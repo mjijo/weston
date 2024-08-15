@@ -12522,4 +12522,11 @@ ul.contact a {
   position: relative;
   color: #fff;
   flex-shrink: 0;
+}
+
+.products h1, .products .h1 {
+  font-size: calc(10rem + 2.1vw);
+  color: #DAF2FB;
+  line-height: 8rem;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
